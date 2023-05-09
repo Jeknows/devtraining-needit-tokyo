@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_widgets">
     <pa_widgets action="INSERT_OR_UPDATE">
-        <aggregate/>
+        <aggregate display_value="6m running SUM">5cc05051d7001100ba986f14ce61032a</aggregate>
         <alignment>left</alignment>
-        <breakdown display_value="NeedIt Requested for">64e17e67976e21104085b066f053af68</breakdown>
+        <breakdown display_value="NeedIt Requests by Month Halves">f030c777972221104085b066f053af3b</breakdown>
         <breakdown_level2/>
         <breakdown_page_size>5</breakdown_page_size>
         <chart_color/>
@@ -20,7 +20,7 @@
         <column_target>false</column_target>
         <column_trend>true</column_trend>
         <compare_main_label/>
-        <compare_number_of_periods/>
+        <compare_number_of_periods>2</compare_number_of_periods>
         <compare_period>year</compare_period>
         <cube_facts_table>x_58872_needit_needit</cube_facts_table>
         <cutoff>1</cutoff>
@@ -29,7 +29,7 @@
         <date_from>00000000</date_from>
         <date_to>00000000</date_to>
         <default_indicator/>
-        <description>Semi donut chart showing NeedIt requests active this week by Request for</description>
+        <description>Display NeedIt requests by month half using the day of month from the When needed field.</description>
         <element>unmatched</element>
         <element_level2/>
         <elements_filter/>
@@ -50,27 +50,27 @@
         <include_target>false</include_target>
         <include_thresholds>false</include_thresholds>
         <include_trend>false</include_trend>
-        <indicator display_value="NeedIt: Active Weekly">66bac2ef97aa21104085b066f053af0d</indicator>
+        <indicator display_value="NeedIt: Due Monthly">683a8e6397ea21104085b066f053af4c</indicator>
         <is_compare_chart>false</is_compare_chart>
         <lastscore_compare>previous_score</lastscore_compare>
-        <lastscore_periods_back/>
+        <lastscore_periods_back>1</lastscore_periods_back>
         <limit>50</limit>
         <lookup_name/>
         <manual_elements>false</manual_elements>
-        <max_color/>
+        <max_color display_value="Green">65b302aea9fe3dba00a530d65ecc2106</max_color>
         <multiple_elements_view/>
-        <name>NeedIt Requests Active this Week by Request For</name>
+        <name>NeedIt Requests by Which Half of Month - 6 Month Sum</name>
         <number_of_records>5</number_of_records>
         <overlap_data_labels>false</overlap_data_labels>
         <percentages>no_percentages</percentages>
         <period>7d</period>
         <pivot_breakdown/>
         <pivot_elements_filter/>
-        <related_dashboards>1</related_dashboards>
+        <related_dashboards>2</related_dashboards>
         <score_font_size>responsive</score_font_size>
         <scorecard_options>all</scorecard_options>
         <show_bar>false</show_bar>
-        <show_breakdown_selector>true</show_breakdown_selector>
+        <show_breakdown_selector>false</show_breakdown_selector>
         <show_change>true</show_change>
         <show_change_perc>true</show_change_perc>
         <show_comparison_date>true</show_comparison_date>
@@ -86,30 +86,30 @@
         <show_total>false</show_total>
         <show_trend>true</show_trend>
         <show_visualization_selector>true</show_visualization_selector>
-        <sort_direction>desc</sort_direction>
+        <sort_direction>asc</sort_direction>
         <sort_on>value</sort_on>
         <subtitle/>
         <sys_class_name>pa_widgets</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-08 08:37:30</sys_created_on>
+        <sys_created_on>2023-05-09 00:26:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>ec48efab972261104085b066f053af18</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>NeedIt Requests Active this Week by Request For</sys_name>
+        <sys_id>c49143f7972221104085b066f053af96</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Requests by Which Half of Month - 6 Month Sum</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>pa_widgets_ec48efab972261104085b066f053af18</sys_update_name>
+        <sys_update_name>pa_widgets_c49143f7972221104085b066f053af96</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-09 00:29:05</sys_updated_on>
+        <sys_updated_on>2023-05-09 00:29:14</sys_updated_on>
         <tag/>
         <template>template1</template>
         <treemap_max_color display_value="Green">65b302aea9fe3dba00a530d65ecc2106</treemap_max_color>
         <treemap_min_color display_value="Red">65b30395a9fe3dba003277a7b660b5db</treemap_min_color>
         <type>breakdown</type>
-        <visualization>semi_circle_donut</visualization>
+        <visualization>column</visualization>
         <words_in_trendline>5</words_in_trendline>
         <yaxis2_from/>
         <yaxis2_title/>
@@ -118,5 +118,5 @@
         <yaxis_title/>
         <yaxis_to/>
     </pa_widgets>
-    <sys_translated_text action="delete_multiple" query="documentkey=ec48efab972261104085b066f053af18"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c49143f7972221104085b066f053af96"/>
 </record_update>
